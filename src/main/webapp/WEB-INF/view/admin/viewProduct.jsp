@@ -4,38 +4,30 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Homion Admin - View Products</title>
-<link rel="stylesheet" href="adminResources/css/materialdesignicons.min.css">
-<link rel="stylesheet" href="adminResources/css/vendor.bundle.base.css">
-<link rel="stylesheet" href="adminResources/css/dataTables.bootstrap4.css">
-<link rel="stylesheet" href="adminResources/css/style.css">
-<link rel="shortcut icon" href="adminResources/image/fav.png" />
 
-<script type="text/javascript">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Homion Admin - View Products</title>
+	<link rel="stylesheet" href="adminResources/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="adminResources/css/dataTables.bootstrap4.css">
+	<link rel="stylesheet" href="adminResources/css/style.css">
+	<link rel="shortcut icon" href="adminResources/image/fav.png" />
 	
-	function getImageSrc(image, name){
-		document.getElementById("modalImage").src = image.src;
-		document.getElementById("headerName").innerHTML = name;
-	}
-	
-</script>
+	<script type="text/javascript">
+		function getImageSrc(image, name){
+			document.getElementById("modalImage").src = image.src;
+			document.getElementById("headerName").innerHTML = name;
+		}
+	</script>
 </head>
 
 <body class="sidebar-light">
 	<div class="container-scroller">
-		<!-- partial:../../partials/_navbar.html -->
-
 
 		<jsp:include page="header.jsp"></jsp:include>
 
-
-		<!-- partial -->
 		<div class="container-fluid page-body-wrapper">
-			<!-- partial:../../partials/_sidebar.html -->
-
 
 			<jsp:include page="menu.jsp"></jsp:include>
 
@@ -83,26 +75,11 @@
 					</div>
 				</div>
 				
-				<!-- content-wrapper ends -->
-				<!-- partial:../../partials/_footer.html -->
-				
 				<jsp:include page="footer.jsp"></jsp:include>
 			</div>
 		</div>
 	</div>
 
-
-	<script src="adminResources/js/vendor.bundle.base.js"></script>
-	<script src="adminResources/js/jquery.dataTables.js"></script>
-	<script src="adminResources/js/dataTables.bootstrap4.js"></script>
-	<script src="adminResources/js/off-canvas.js"></script>
-	<script src="adminResources/js/hoverable-collapse.js"></script>
-	<script src="adminResources/js/template.js"></script>
-	<script src="adminResources/js/settings.js"></script>
-	<script src="adminResources/js/todolist.js"></script>
-	<script src="adminResources/js/data-table.js"></script>
-	
-	
 	<!----------------------------------- for modal image ---------------------------------------->
 			
      <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
@@ -122,8 +99,13 @@
      </div>
                  
     <!-- -modal end ----------------------------------------------------------------------------------->
-
+    
+    <script src="adminResources/js/vendor.bundle.base.js"></script>
+	<script src="adminResources/js/jquery.dataTables.js"></script>
+	<script src="adminResources/js/dataTables.bootstrap4.js"></script>
+	<script src="adminResources/js/hoverable-collapse.js"></script>
+	<script src="adminResources/js/template.js"></script>
+	<script src="adminResources/js/data-table.js"></script>
 
 </body>
-
 </html>

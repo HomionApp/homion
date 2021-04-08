@@ -4,23 +4,19 @@
     
 <!DOCTYPE html>
 <html lang="en">
+
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Askbootstrap">
-      <meta name="author" content="Askbootstrap">
       <link rel="icon" type="image/png" href="userResources/image/fav.png">
       <title>Homion - SignUp</title>
-      <link rel="stylesheet" type="text/css" href="userResources/css/slick.min.css" />
-      <link rel="stylesheet" type="text/css" href="userResources/css/slick-theme.min.css" />
-      <link href="userResources/css/feather.css" rel="stylesheet" type="text/css">
       <link href="userResources/css/bootstrap.min.css" rel="stylesheet">
       <link href="userResources/css/style.css" rel="stylesheet">
-      <link href="userResources/css/demo.css" rel="stylesheet">
       <link rel="stylesheet" href="../chef/chefResources/css/materialdesignicons.min.css">
-      
    </head>
+   
    <body>
+   
       <div class="osahan-signup login-page mb-0 bg-white">
       
          <video loop autoplay muted id="vid" style="position:fixed; left:0; bottom:0;">
@@ -98,10 +94,6 @@
       
       <script type="text/javascript" src="userResources/js/user.js"></script>
       <script type="text/javascript" src="userResources/js/jquery.min.js"></script>
-      <script type="text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
-      <script type="text/javascript" src="userResources/js/slick.min.js"></script>
-      <script type="text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
-      <script type="text/javascript" src="userResources/js/osahan.js"></script>
-      <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
+      
    </body>
 </html>

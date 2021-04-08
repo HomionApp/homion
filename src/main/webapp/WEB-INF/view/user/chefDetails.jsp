@@ -9,23 +9,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Askbootstrap">
-	<meta name="author" content="Askbootstrap">
 	<link rel="icon" type="image/png" href="userResources/image/fav.png">
 	<title>Homion - Chef Name</title>
-	<link rel="stylesheet" type="text/css"
-		href="userResources/css/slick.min.css" />
-	<link rel="stylesheet" type="text/css"
-		href="userResources/css/slick-theme.min.css" />
-	<link href="userResources/css/feather.css" rel="stylesheet"
-		type="text/css">
+	<link rel="stylesheet" type="text/css" href="userResources/css/slick.min.css" />
+	<link rel="stylesheet" type="text/css" href="userResources/css/slick-theme.min.css" />
+	<link href="userResources/css/feather.css" rel="stylesheet" type="text/css">
 	<link href="userResources/css/bootstrap.min.css" rel="stylesheet">
 	<link href="userResources/css/style.css" rel="stylesheet">
 	<link href="userResources/css/demo.css" rel="stylesheet">
 </head>
 
 <body class="fixed-bottom-bar">
-
 
 	<!-- header start -->
 	<jsp:include page="header.jsp"></jsp:include>
@@ -383,68 +377,15 @@
 	<!-- footer start -->
 	<jsp:include page="footer.jsp"></jsp:include>
 	<!-- footer end -->
-
-
-
-	<!-- <div class="modal fade" id="payConfirmation" tabindex="-1" role="dialog"
-		aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title"></h5>
-					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="recepie-body">
-							<h6 class="font-weight-bold mt-0">QUANTITY</h6>
-							<div class="d-flex align-items-center">
-								<p class="m-0">1 Item</p>
-								<div class="ml-auto">
-									<span class="count-number"><button type="button"
-											class="btn-sm left dec btn btn-outline-secondary">
-											<i class="feather-minus"></i>
-										</button> <input class="count-number-input" type="text" readonly=""
-										value="1">
-										<button type="button"
-											class="btn-sm right inc btn btn-outline-secondary">
-											<i class="feather-plus"></i>
-										</button></span>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
-				<div class="modal-footer p-0 border-0">
-					<div class="col-6 m-0 p-0">
-						<button type="button" class="btn border-top btn-lg btn-block"
-							data-dismiss="modal">Close</button>
-					</div>
-					<div class="col-6 m-0 p-0">
-						<button type="button" class="btn btn-primary btn-lg btn-block">Apply</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 	
 	
-	<script type="text/javascript" src="userResources/js/user.js"></script>
-	<script type="98f78316b0e7e5bd7c56fec6-text/javascript"
-		src="userResources/js/jquery.min.js"></script>
-	<script type="98f78316b0e7e5bd7c56fec6-text/javascript"
-		src="userResources/js/bootstrap.bundle.min.js"></script>
-	<script type="98f78316b0e7e5bd7c56fec6-text/javascript"
-		src="userResources/js/slick.min.js"></script>
-	<script type="98f78316b0e7e5bd7c56fec6-text/javascript"
-		src="userResources/js/hc-offcanvas-nav.js"></script>
-	<script type="98f78316b0e7e5bd7c56fec6-text/javascript"
-		src="userResources/js/osahan.js"></script>
-	<script
-		src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
-		data-cf-settings="98f78316b0e7e5bd7c56fec6-|49" defer=""></script>
+	  <script type="text/javascript" src="userResources/js/user.js"></script>
+      <script type="text/javascript" src="userResources/js/jquery.min.js"></script>
+      <script type="text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="userResources/js/slick.min.js"></script>
+      <script type="text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
+      <script type="text/javascript" src="userResources/js/osahan.js"></script>
+      <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="4e43def5a3a50859f7969efd-|49" defer=""></script>
+      
 </body>
 </html>

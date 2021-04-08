@@ -4,18 +4,16 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" type="image/png" href="userResources/image/fav.png">
 	<title>Profile - ${user.firstName} ${user.lastName}</title>
-	<link rel="stylesheet" type="text/css" href="userResources/css/slick.min.css" />
-	<link rel="stylesheet" type="text/css" href="userResources/css/slick-theme.min.css" />
 	<link href="userResources/css/feather.css" rel="stylesheet" type="text/css">
 	<link href="userResources/css/bootstrap.min.css" rel="stylesheet">
 	<link href="userResources/css/style.css" rel="stylesheet">
 	<link href="userResources/css/demo.css" rel="stylesheet">
-	
 	<script>
 	function changeContent(page){
 		console.log(page);
@@ -116,12 +114,12 @@
 	<!-- footer end -->
 
 
-	<script type="767da250bd41b543cc5f7b4b-text/javascript" src="userResources/js/jquery.min.js"></script>
-	<script type="767da250bd41b543cc5f7b4b-text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
-	<script type="767da250bd41b543cc5f7b4b-text/javascript" src="userResources/js/slick.min.js"></script>
-	<script type="767da250bd41b543cc5f7b4b-text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
-	<script type="767da250bd41b543cc5f7b4b-text/javascript" src="userResources/js/osahan.js"></script>
-	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="767da250bd41b543cc5f7b4b-|49" defer=""></script>
+      <script type="text/javascript" src="userResources/js/jquery.min.js"></script>
+      <script type="text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="userResources/js/slick.min.js"></script>
+      <script type="text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
+      <script type="text/javascript" src="userResources/js/osahan.js"></script>
+      <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="4e43def5a3a50859f7969efd-|49" defer=""></script>
 		
 </body>
 </html>

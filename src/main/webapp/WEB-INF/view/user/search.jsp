@@ -2,17 +2,15 @@
 	pageEncoding="ISO-8859-1"%>
 <%@taglib prefix="jstl" uri="http://java.sun.com/jstl/core_rt" %>
 <%@taglib prefix="fun" uri="http://java.sun.com/jsp/jstl/functions"  %>
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Askbootstrap">
-	<meta name="author" content="Askbootstrap">
 	<link rel="icon" type="image/png" href="userResources/image/fav.png">
 	<title>Homion - Search</title>
-	<link rel="stylesheet" type="text/css" href="userResources/css/slick.min.css" />
-	<link rel="stylesheet" type="text/css" href="userResources/css/slick-theme.min.css" />
 	<link href="userResources/css/feather.css" rel="stylesheet" type="text/css">
 	<link href="userResources/css/bootstrap.min.css" rel="stylesheet">
 	<link href="userResources/css/style.css" rel="stylesheet">
@@ -21,7 +19,7 @@
 
 <body class="fixed-bottom-bar">
 	
-	 <form action="/user/chefDetails" method="post" id="myForm"> <input type="hidden" name="chefId" id="chefId"> </form>
+	<form action="/user/chefDetails" method="post" id="myForm"> <input type="hidden" name="chefId" id="chefId"> </form>
 
 	<!-- header start -->
 	<jsp:include page="header.jsp"></jsp:include>
@@ -268,11 +266,12 @@
 	</div>
 	
 	<script type="text/javascript" src="userResources/js/user.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/jquery.min.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/slick.min.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/osahan.js"></script>
-	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="4e43def5a3a50859f7969efd-|49" defer=""></script>
+    <script type="text/javascript" src="userResources/js/jquery.min.js"></script>
+    <script type="text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="userResources/js/slick.min.js"></script>
+    <script type="text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
+    <script type="text/javascript" src="userResources/js/osahan.js"></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="4e43def5a3a50859f7969efd-|49" defer=""></script>
+	
 </body>
 </html>

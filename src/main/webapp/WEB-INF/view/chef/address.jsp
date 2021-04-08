@@ -3,25 +3,19 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jstl/core_rt" %> 
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<head>
-<meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chef - Manage Address</title>
-<link rel="stylesheet"
-	href="chefResources/css/materialdesignicons.min.css">
-<link rel="stylesheet" href="chefResources/css/style.css">
-<link rel="stylesheet" href="chefResources/css/bootstrap.min.css">
-<link rel="stylesheet" href="chefResources/css/vendor.bundle.base.css">
-<link rel="stylesheet"
-	href="chefResources/css/bootstrap-datepicker.min.css">
-<link rel="shortcut icon" href="chefResources/image/fav.png" />
-</head>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Chef - Manage Address</title>
+	<link rel="stylesheet" href="chefResources/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="chefResources/css/style.css">
+	<link rel="stylesheet" href="chefResources/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="chefResources/image/fav.png" />
+</head>
 
 <body class="sidebar-light">
 
@@ -198,25 +192,12 @@
 			</div>
 		</div>
 	</div>
-	<script type="ac85e1106be1c1fcf08f4aa7-text/javascript"
-		src="chefResources/js/jquery.min.js"></script>
-	<script type="ac85e1106be1c1fcf08f4aa7-text/javascript"
-		src="chefResources/js/bootstrap.bundle.min.js"></script>
-	<script
-		src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
-		data-cf-settings="ac85e1106be1c1fcf08f4aa7-|49" defer=""></script>
 	
 	<script type="text/javascript" src="../chef/chefResources/js/chef.js"></script>
-	
 	<script src="chefResources/js/vendor.bundle.base.js"></script>
-	<script src="chefResources/js/bootstrap-datepicker.min.js"></script>
-	<script src="chefResources/js/off-canvas.js"></script>
 	<script src="chefResources/js/hoverable-collapse.js"></script>
 	<script src="chefResources/js/template.js"></script>
-	<script src="chefResources/js/dashboard.js"></script>
 	<script src="chefResources/js/jquery.min.js"></script>
-	<script src="chefResources/js/popper.min.js"></script>
-	<script src="chefResources/js/botstrap.min.js"></script>
 
 </body>
 </html>

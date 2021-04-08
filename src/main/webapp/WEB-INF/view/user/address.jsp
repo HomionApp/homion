@@ -1,29 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Askbootstrap">
-<meta name="author" content="Askbootstrap">
-<link rel="icon" type="image/png" href="userResources/image/fav.png">
-<title>Homion - Manage Address</title>
-<link rel="stylesheet" type="text/css"
-	href="userResources/css/slick.min.css" />
-<link rel="stylesheet" type="text/css"
-	href="userResources/css/slick-theme.min.css" />
-<link href="userResources/css/feather.css" rel="stylesheet"
-	type="text/css">
-<link href="userResources/css/bootstrap.min.css" rel="stylesheet">
-<link href="userResources/css/style.css" rel="stylesheet">
-<link href="userResources/css/demo.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" href="userResources/image/fav.png">
+	<title>Homion - Manage Address</title>
+	<link href="userResources/css/feather.css" rel="stylesheet" type="text/css">
+	<link href="userResources/css/bootstrap.min.css" rel="stylesheet">
+	<link href="userResources/css/style.css" rel="stylesheet">
+	<link href="userResources/css/demo.css" rel="stylesheet">
 </head>
+
 <body class="fixed-bottom-bar">
 
 	<!-- header start -->
@@ -190,203 +184,15 @@
 	<!-- footer start -->
 	<jsp:include page="footer.jsp"></jsp:include>
 	<!-- footer end -->
-
-	<%-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-		aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Add Delivery Address</h5>
-					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<form:form action="/chef/addAddress" method="post" modelAttribute="address">
-				<div class="modal-body">
-						<div class="form-row">
-							<div class="col-md-12 form-group">
-								<label class="form-label">Home No/ Flat No</label>
-								<div class="input-group">
-									<form:input path="homeNo" placeholder="Home No/ Flat No" type="number" class="form-control" required="required"/>
-									<div class="input-group-append">
-										<button type="button" class="btn btn-outline-secondary">
-											<i class="feather-map-pin"></i>
-										</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12 form-group">
-								<label class="form-label">Society Name</label>
-								<form:input path="societyName" placeholder="Society Name" type="text" class="form-control" required="required"/>
-							</div>
-							<div class="col-md-12 form-group">
-								<label class="form-label">Landmark</label>
-								<form:input path="landmark" placeholder="Landmark" type="text" class="form-control" required="required"/>
-							</div>
-							<div class="col-md-12 form-group">
-								<label class="form-label">Area</label>
-								<form:input path="area"	placeholder="Area" type="text" class="form-control" required="required"/>
-							</div>
-							<div class="col-md-12 form-group">
-								<label class="form-label">State</label>
-								<form:select path="state" placeholder="state" type="text" class="form-control" required="required">
-									<jstl:forEach items="${states}" var="states">
-												<form:option value="${states.id }">${states.name }</form:option>
-									</jstl:forEach>
-								</form:select>
-							</div>
-							<div class="col-md-12 form-group">
-								<label class="form-label">Pin Code </label>
-								<form:input path="pincode" placeholder="PIN Code" type="text" class="form-control" required="required"/>
-							</div>
-							<div class="mb-0 col-md-12 form-group">
-								<label class="form-label">Type</label>
-								<div class="btn-group btn-group-toggle w-100"
-									data-toggle="buttons">
-									<label class="btn btn-outline-secondary active"> 
-										<form:radiobutton path="type" value = "Home"/> Home
-									</label> 
-									<label class="btn btn-outline-secondary"> 
-										<form:radiobutton path="type" value = "Work"/> Work
-									</label> 
-									<label class="btn btn-outline-secondary"> 
-										<form:radiobutton path="type" value = "Other"/> Other
-									</label>
-								</div>
-							</div>
-						</div>
- 				</div>
-				<div class="modal-footer p-0 border-0">
-					<div class="col-6 m-0 p-0">
-						<button type="button" class="btn border-top btn-lg btn-block"
-							data-dismiss="modal">Close</button>
-					</div>
-					<div class="col-6 m-0 p-0">
-						<input type="submit" class="btn btn-primary btn-lg btn-block" value="Save changes"/>
-					</div>
-				</div>
-				</form:form>
-			</div>
-		</div>
-	</div> --%>
-	<div class="modal fade" id="inviteModal" tabindex="-1"
-		aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header border-0">
-					<h5 class="modal-title font-weight-bold text-dark">Invite</h5>
-					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body py-0">
-					<button class="btn btn-light text-primary btn-sm">
-						<i class="feather-plus"></i>
-					</button>
-					<span class="ml-2 smal text-primary">Send an invite to a
-						friend</span>
-					<p class="mt-3 small">Invited friends (2)</p>
-					<div class="d-flex align-items-center mb-3">
-						<div class="mr-3">
-							<img alt="#" src="userResources/image/1.jpg"
-								class="img-fluid rounded-circle header-user mr-2 header-user">
-						</div>
-						<div>
-							<p class="small font-weight-bold text-dark mb-0">Kate Simpson</p>
-							<P class="mb-0 small">
-								<a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-									data-cfemail="345f554051475d5944475b5a745b4140565b5b5f1a575b59">[email&#160;protected]</a>
-							</P>
-						</div>
-					</div>
-					<div class="d-flex align-items-center mb-3">
-						<div class="mr-3">
-							<img alt="#" src="userResources/image/1.jpg"
-								class="img-fluid rounded-circle header-user mr-2 header-user">
-						</div>
-						<div>
-							<p class="small font-weight-bold text-dark mb-0">Andrew Smith</p>
-							<P class="mb-0 small">
-								<a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-									data-cfemail="b7d6d9d3c5d2c0c4dadec3dff7c2de8f99d4d8da">[email&#160;protected]</a>
-							</P>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer border-0"></div>
-			</div>
-		</div>
-	</div>
 	
 	<script type="text/javascript" src="../chef/chefResources/js/chef.js"></script>
-	
-	<script data-cfasync="false"
-		src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-	<script type="c5888850817987817d27ac82-text/javascript"
-		src="userResources/js/jquery.min.js"></script>
-	<script type="c5888850817987817d27ac82-text/javascript"
-		src="userResources/js/bootstrap.bundle.min.js"></script>
-	<script type="c5888850817987817d27ac82-text/javascript"
-		src="userResources/js/slick.min.js"></script>
-	<script type="c5888850817987817d27ac82-text/javascript"
-		src="userResources/js/hc-offcanvas-nav.js"></script>
-	<script type="c5888850817987817d27ac82-text/javascript"
-		src="userResources/js/osahan.js"></script>
-	<script
-		src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
+	<script type="text/javascript" src="userResources/js/jquery.min.js"></script>
+	<script type="text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="userResources/js/slick.min.js"></script>
+	<script type="text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
+	<script type="text/javascript" src="userResources/js/osahan.js"></script>
+	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
 		data-cf-settings="c5888850817987817d27ac82-|49" defer=""></script>
+		
 </body>
 </html>
-
-
-<!-- ******************************************* View Address ******************************************** -->
-<!-- 
-<h6 class="mb-3 font-weight-bold">Delivery Address</h6>
-<div class="row">
-	<div
-		class="custom-control col-lg-6 custom-radio mb-3 position-relative border-custom-radio">
-		<input type="radio" id="customRadioInline1" name="customRadioInline1"
-			class="custom-control-input" checked> <label
-			class="custom-control-label w-100" for="customRadioInline1">
-			<div>
-				<div class="p-3 bg-white rounded shadow-sm w-100">
-					<div class="d-flex align-items-center mb-2">
-						<h6 class="mb-0">Home</h6>
-						<p class="mb-0 badge badge-success ml-auto">
-							<i class="icofont-check-circled"></i> Default
-						</p>
-					</div>
-					<p class="small text-muted m-0">1001 Veterans Blvd</p>
-					<p class="small text-muted m-0">Redwood City, CA 94063</p>
-				</div>
-				<a href="#" data-toggle="modal" data-target="#exampleModal"
-					class="btn btn-block btn-light border-top">Edit</a>
-			</div>
-		</label>
-	</div>
-	<div
-		class="custom-control col-lg-6 custom-radio position-relative border-custom-radio">
-		<input type="radio" id="customRadioInline2" name="customRadioInline1"
-			class="custom-control-input"> <label
-			class="custom-control-label w-100" for="customRadioInline2">
-			<div>
-				<div class="p-3 rounded bg-white shadow-sm w-100">
-					<div class="d-flex align-items-center mb-2">
-						<h6 class="mb-0">Work</h6>
-						<p class="mb-0 badge badge-light ml-auto">
-							<i class="icofont-check-circled"></i> Select
-						</p>
-					</div>
-					<p class="small text-muted m-0">Model Town, Ludhiana</p>
-					<p class="small text-muted m-0">Punjab 141002, India</p>
-				</div>
-				<a href="#" data-toggle="modal" data-target="#exampleModal"
-					class="btn btn-block btn-light border-top">Edit</a>
-			</div>
-		</label>
-	</div>
-</div>
-<a class="btn btn-primary" href="#" data-toggle="modal"
-	data-target="#exampleModal"> ADD NEW ADDRESS </a> -->

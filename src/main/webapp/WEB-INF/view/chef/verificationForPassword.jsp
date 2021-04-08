@@ -5,27 +5,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Homion">
-      <meta name="author" content="Homion">
-      <link rel="icon" type="image/png" href="chefResources/image/fav.png">
-      <title>Chef - Verify OTP</title>
-      <link href="../user/userResources/css/style.css" rel="stylesheet">
-      <link href="../user/userResources/css/feather.css" rel="stylesheet" type="text/css">
-      <link href="../user/userResources/css/bootstrap.min.css" rel="stylesheet">
-   </head>
-   
-   <body>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="icon" type="image/png" href="chefResources/image/fav.png">
+   <title>Chef - Verify OTP</title>
+   <link href="../user/userResources/css/style.css" rel="stylesheet">
+   <link href="../user/userResources/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
       <div class="osahan-signup login-page mb-0">
-      
          <video loop autoplay muted id="vid" style="position:fixed; left:0; bottom:0;">
             <source src="../user/userResources/image/bg.mp4" type="video/mp4">
             <source src="../user/userResources/image/bg.mp4" type="video/ogg">
             Your browser does not support the video tag.
          </video>
-         
          <div class="d-flex justify-content-center vh-100">
             <div class="col-md-6 ml-auto">
                <div class="col-10 mx-auto">
@@ -51,12 +46,5 @@
          </div>
       </div>
       
-      <!-- form validation -->
-      <script type="30f570cc674fda69b60e63d5-text/javascript" src="chefResources/js/chef.js"></script>
-      
-      <script type="30f570cc674fda69b60e63d5-text/javascript" src="../user/userResources/js/jquery.min.js"></script>
-      <script type="30f570cc674fda69b60e63d5-text/javascript" src="../user/userResources/js/bootstrap.bundle.min.js"></script>
-      <script type="30f570cc674fda69b60e63d5-text/javascript" src="../user/userResources/js/osahan.js"></script>
-      
-   </body>
+</body>
 </html>

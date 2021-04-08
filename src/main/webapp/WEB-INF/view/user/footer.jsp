@@ -35,7 +35,7 @@
               <aside class="col-sm-3  col-md-2 text-white">
                  <h6 class="title">More Pages</h6>
                  <ul class="list-unstyled hov_footer">
-                    <li> <a href="/user/faq" class="text-muted"> FAQ </a></li>
+                    <li> <a href="/user/home" class="text-muted"> Home </a></li>
                     <li> <a href="/user/contact-us" class="text-muted"> Contact Us </a></li>
                     <li> <a href="/user/privacy" class="text-muted"> Privacy Policy </a></li>
                     <li> <a href="/user/terms" class="text-muted"> Terms & Conditions </a></li>

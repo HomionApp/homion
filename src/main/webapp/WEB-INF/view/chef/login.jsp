@@ -6,21 +6,19 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="ISO-8859-1">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Askbootstrap">
-		<meta name="author" content="Askbootstrap">
-		<link rel="icon" type="image/png" href="chefResources/image/fav.png">
-		<title>Chef - Login</title>
-		<link href="chefResources/css/bootstrap.min.css" rel="stylesheet">
-		<link href="chefResources/css/style.css" rel="stylesheet">
-		<link rel="stylesheet" href="chefResources/css/materialdesignicons.min.css">
-	</head>
+<head>
+	<meta charset="ISO-8859-1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" href="chefResources/image/fav.png">
+	<title>Chef - Login</title>
+	<link href="chefResources/css/style.css" rel="stylesheet">
+	<link href="../user/userResources/css/style.css" rel="stylesheet">
+	<link href="chefResources/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="chefResources/css/materialdesignicons.min.css">
+</head>
 	
-   <body>
-   	
+<body>
       <div class="login-page vh-100">
          <video loop autoplay muted id="vid">
             <source src="chefResources/image/bg.mp4" type="video/mp4">
@@ -72,11 +70,11 @@
                   </form:form>
                   
                   <a href="/chef/forgotPassword" class="text-decoration-none">
-                     <p class="text-center">Forgot your password?</p>
+                     <p class="text-center text-primary">Forgot your password?</p>
                   </a>
                   <div class="d-flex align-items-center justify-content-center">
                      <a href="/chef/register">
-                        <p class="text-center m-0">Don't have an account? Sign up</p>
+                        <p class="text-center text-primary mt-n2">Don't have an account? Sign up</p>
                      </a>
                   </div>
                </div>
@@ -84,12 +82,7 @@
          </div>
       </div>
       
-      <jsp:include page="loader.jsp"></jsp:include>
-      
       <script type="text/javascript" src="chefResources/js/chef.js"></script>
-      <script type="7e87e72d05d4dcf7364fe1e8-text/javascript" src="chefResources/js/jquery.min.js"></script>
-      <script type="7e87e72d05d4dcf7364fe1e8-text/javascript" src="chefResources/css/js/bootstrap.bundle.min.js"></script>
       
-   </body>
-   
+</body>   
 </html>

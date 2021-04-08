@@ -6,22 +6,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Homion">
-      <meta name="author" content="Homion">
-      <link rel="icon" type="image/png" href="chefResources/image/fav.png">
-      <title>Chef - Register</title>
-      <link href="../user/userResources/css/style.css" rel="stylesheet">
-      <link href="../user/userResources/css/feather.css" rel="stylesheet" type="text/css">
-      <link href="../user/userResources/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="chefResources/css/materialdesignicons.min.css">
-   </head>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="icon" type="image/png" href="chefResources/image/fav.png">
+   <title>Chef - Register</title>
+   <link href="../user/userResources/css/style.css" rel="stylesheet">
+   <link href="../user/userResources/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="chefResources/css/materialdesignicons.min.css">
+</head>
    
-   <body>
+<body>
       <div class="osahan-signup login-page mb-0">
-      
          <video loop autoplay muted id="vid" style="position:fixed; left:0; bottom:0;">
             <source src="../user/userResources/image/bg.mp4" type="video/mp4">
             <source src="../user/userResources/image/bg.mp4" type="video/ogg">
@@ -94,7 +90,7 @@
                      
                      <div class="d-flex align-items-center justify-content-center mt-2">
                         <a href="/chef/login">
-                           <p class="text-center mb-5">Already have an account? Sign in</p>
+                           <p class="text-center text-primary mb-5">Already have an account? Sign in</p>
                         </a>
                      </div>
                   </form:form>
@@ -105,10 +101,6 @@
       
       <!-- form validation -->
       <script type="text/javascript" src="chefResources/js/chef.js"></script>
-      
-      <script type="text/javascript" src="../user/userResources/js/jquery.min.js"></script>
-      <script type="text/javascript" src="../user/userResources/js/bootstrap.bundle.min.js"></script>
-      <script type="text/javascript" src="../user/userResources/js/osahan.js"></script>
-      
-   </body>
+            
+</body>
 </html>

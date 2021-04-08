@@ -56,7 +56,6 @@ public class ChefController {
 	@RequestMapping(value = "/verification", method = RequestMethod.POST)
 	private ModelAndView verification(@ModelAttribute Chef chef, HttpSession httpSession) throws Exception {
 		int otp = BaseMethods.sendVerificationMail(chef.getLogin().getEmail(), chef.getFirstName(), emailSender);
-		System.out.println(otp);
 		httpSession.setAttribute("otp", otp);
 		httpSession.setAttribute("chef", chef);
 		return new ModelAndView("chef/verification");

@@ -2,17 +2,15 @@
 	pageEncoding="ISO-8859-1"%>
 <%@taglib prefix="jstl" uri="http://java.sun.com/jstl/core_rt" %>
 <%@taglib prefix="fun" uri="http://java.sun.com/jsp/jstl/functions"  %>
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Askbootstrap">
-	<meta name="author" content="Askbootstrap">
 	<link rel="icon" type="image/png" href="userResources/image/fav.png">
 	<title>Homion - Favourites</title>
-	<link rel="stylesheet" type="text/css" href="userResources/css/slick.min.css" />
-	<link rel="stylesheet" type="text/css" href="userResources/css/slick-theme.min.css" />
 	<link rel="stylesheet" href="../chef/chefResources/css/materialdesignicons.min.css">
 	<link href="userResources/css/feather.css" rel="stylesheet" type="text/css">
 	<link href="userResources/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +25,13 @@
 	<!-- header start -->
 	<jsp:include page="header.jsp"></jsp:include>
 	<!-- header end -->
+	
+	<div class="d-none">
+		<div class="bg-primary p-3 d-flex align-items-center">
+			<a class="toggle togglew toggle-2" href="#"><span></span></a>
+			<h4 class="font-weight-bold m-0 text-white">Favourites</h4>
+		</div>
+	</div>
 
 	<div class="osahan-popular">
 		<div class="container">
@@ -193,65 +198,16 @@
 	<jsp:include page="footer.jsp"></jsp:include>
 	<!-- footer end -->
 
-	<div class="modal fade" id="filters" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Filters</h5>
-					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<form id="filterForm">
-					
-						<h6>SORT BY</h6>
-						<div class="custom-control  border-bottom custom-radio">
-							<input type="radio" id="topRated" name="sort" class="custom-control-input" value=1  checked> 
-							<label class="custom-control-label w-100" for="topRated" style="cursor:pointer">Top Rated</label>
-						</div>
-						<div class="custom-control mt-3 border-bottom custom-radio">
-							<input type="radio" id="costHighToLow" name="sort" class="custom-control-input" value=2> 
-							<label class="custom-control-label w-100" for="costHighToLow" style="cursor:pointer">Cost High to Low</label>
-						</div>
-						<div class="custom-control mt-3 border-bottom custom-radio">
-							<input type="radio" id="costLowToHigh" name="sort" class="custom-control-input" value=3> 
-							<label class="custom-control-label w-100" for="costLowToHigh" style="cursor:pointer">Cost Low to High</label>
-						</div>
-						
-						<h6 class="mt-4">FILTER</h6>
-						<div class="custom-control border-bottom mt-3 custom-checkbox">
-							<input type="checkbox" class="custom-control-input filter" id="prepareAtHome" value=4> 
-							<label class="custom-control-label w-100" for="prepareAtHome" style="cursor:pointer">Available to prepare at home</label>
-						</div>
-						<div class="custom-control border-bottom mt-3 custom-checkbox">
-							<input type="checkbox" class="custom-control-input filter" id="jain" value=5> 
-							<label class="custom-control-label w-100" for="jain" style="cursor:pointer">Jain Available</label>
-						</div>
-						
-					</form>
-				</div>
-				<div class="modal-footer p-0 border-0">
-					<div class="col-6 m-0 p-0">
-						<button type="button" class="btn border-top btn-lg btn-block" data-dismiss="modal">Close</button>
-					</div>
-					<div class="col-6 m-0 p-0">
-						<button type="button" class="btn btn-primary btn-lg btn-block" data-dismiss="modal" onclick="filter()">Apply</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	
 	<jsp:include page="bottomMenu.jsp"></jsp:include>
 	
-	<script type="text/javascript" src="userResources/js/user.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/jquery.min.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/slick.min.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
-	<script type="4e43def5a3a50859f7969efd-text/javascript" src="userResources/js/osahan.js"></script>
-	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="4e43def5a3a50859f7969efd-|49" defer=""></script>
+	  <script type="text/javascript" src="userResources/js/user.js"></script>
+      <script type="text/javascript" src="userResources/js/jquery.min.js"></script>
+      <script type="text/javascript" src="userResources/js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="userResources/js/slick.min.js"></script>
+      <script type="text/javascript" src="userResources/js/hc-offcanvas-nav.js"></script>
+      <script type="text/javascript" src="userResources/js/osahan.js"></script>
+      <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="4e43def5a3a50859f7969efd-|49" defer=""></script>
+	
 </body>
 </html>

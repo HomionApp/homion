@@ -4,6 +4,7 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta charset="ISO-8859-1">
   <meta charset="utf-8">
@@ -12,12 +13,8 @@
   <link rel="stylesheet" href="chefResources/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="chefResources/css/style.css">
   <link rel="stylesheet" href="chefResources/css/bootstrap.min.css">
-  <link rel="stylesheet" href="chefResources/css/vendor.bundle.base.css">
-  <link rel="stylesheet" href="chefResources/css/bootstrap-datepicker.min.css">
   <link rel="shortcut icon" href="chefResources/image/fav.png" />
-  
 </head>
-
 
 <body class="sidebar-light">
 
@@ -81,25 +78,17 @@
 	        <!-- Working area end-->         
 
       </div>
-
     </div>
     
     <jsp:include page="footer.jsp"></jsp:include>
-    <jsp:include page="loader.jsp"></jsp:include>
     
   </div>
-
+  
+  <script src="chefResources/js/chef.js"></script>
   <script src="chefResources/js/vendor.bundle.base.js"></script>
-  <script src="chefResources/js/bootstrap-datepicker.min.js"></script>
-  <script src="chefResources/js/off-canvas.js"></script>
   <script src="chefResources/js/hoverable-collapse.js"></script>
   <script src="chefResources/js/template.js"></script>
-  <script src="chefResources/js/dashboard.js"></script>
   <script src="chefResources/js/jquery.min.js"></script>
-  <script src="chefResources/js/popper.min.js"></script>
-  <script src="chefResources/js/bootstrap.min.js"></script>
-
-  
 
 </body>
 </html>
